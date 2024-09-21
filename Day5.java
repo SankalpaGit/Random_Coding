@@ -47,23 +47,6 @@ public class Day5 {
         return -1; // Target not found
     }
 
-    // Binary Search Algorithm (Array must be sorted)
-    public static int binarySearch(int[] arr, int target) {
-        int low = 0;
-        int high = arr.length - 1;
-        while (low <= high) {
-            int mid = (low + high) / 2;
-            if (arr[mid] == target) {
-                return mid; // Target found
-            } else if (arr[mid] < target) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
-        }
-        return -1; // Target not found
-    }
-
     // Utility function to print an array
     public static void printArray(int[] arr) {
         for (int num : arr) {
@@ -104,14 +87,7 @@ public class Day5 {
             System.out.println("Element not found (Linear Search).");
         }
 
-        // 4. Binary Search (Array must be sorted, and already sorted by Selection Sort above)
-        System.out.print("Enter a number to search using Binary Search: ");
-        int binaryTarget = sc.nextInt();
-        int binaryResult = binarySearch(arr, binaryTarget);
-        if (binaryResult != -1) {
-            System.out.println("Element found at index (Binary Search): " + binaryResult);
-        } else {
-            System.out.println("Element not found (Binary Search).");
-        }
+        sc.close();
+
     }
 }
