@@ -89,5 +89,7 @@ public class Queue {
         System.out.println("Dequeued from queue: " + queue.dequeue());
         System.out.println("Peek of queue: " + queue.peek());
         queue.printQueue();
+
+        sc.close();
     }
 }
