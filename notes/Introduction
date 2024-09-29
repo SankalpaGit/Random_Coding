@@ -9,24 +9,8 @@ Data Structures: A data structure is a particular way of organizing, managing, a
 Algorithms: An algorithm is a finite sequence of well-defined instructions to solve a specific problem. It is a step-by-step procedure that takes an input and produces the desired output.
     Examples: Sorting algorithms (like Merge Sort, Quick Sort), Searching algorithms (like Binary Search), Graph algorithms (like Dijkstra's), etc.
 
-1.2 Importance of DSA in Problem Solving
 
-Efficiency: Using the right data structure or algorithm can significantly improve the time and space efficiency of your code.
-    - For example, searching for an element in an unsorted array takes O(n) time, whereas in a binary search tree, it can take O(log n).
-
-Scalability: As data sizes grow, the performance of programs becomes critical. Efficient algorithms and data structures help in scaling applications to handle large inputs.
-    - For example, sorting 10 items using Bubble Sort (O(n²)) may be fine, but sorting 1 million items requires more efficient algorithms like Quick Sort (O(n log n)).
-
-Optimization: In real-world applications, we deal with constraints on time, memory, and computational resources. Properly choosing data structures and algorithms can optimize the usage of these resources.
-
-Problem-Solving Framework: DSA provides a systematic framework to break down complex problems and solve them efficiently. It is fundamental for competitive programming and technical interviews, where optimal solutions are required under time constraints.
-
-Real-world Applications: 
-    Networking: Algorithms for routing and data transmission in networks (e.g., Dijkstra's algorithm for shortest path).
-    Databases: Data structures like B-trees and hashing are widely used for indexing in databases.
-    Operating Systems: Scheduling algorithms, memory management techniques (e.g., paging), etc., are crucial for OS design.
-
-1.3 Types of Data Structures
+1.2 Types of Data Structures
 
 Data structures can be categorized based on their nature and how they organize and manage data:
 
@@ -48,7 +32,7 @@ Dynamic Data : Size and memory allocation can change at runtime.
 Abstract Data Types (ADT): ADTs focus on what operations can be performed, rather than how they are implemented.
     : Stack (with push and pop operations), Queue (with enqueue and dequeue operations).
 
- 1.4 Types of Algorithms
+ 1.3 Types of Algorithms
 
 Algorithms can be classified based on their approach and the kind of problems they solve:
 

@@ -1,0 +1,16 @@
+Recursion is a powerful technique where a function calls itself to solve smaller instances of the same problem. To understand recursion thoroughly, we need to explore two main components: base case and recursive case, as well as other important aspects of recursion.
+
+1. Base Case
+The base case is the simplest instance of the problem that can be solved directly without further recursion. It is critical because, without a base case, the recursion would continue indefinitely, leading to a stack overflow error. The base case acts as the stopping condition.
+
+2. Recursive Case
+The recursive case defines how the larger problem is broken down into smaller instances. In the recursive case, the function calls itself with a modified input that eventually leads toward the base case.
+
+
+3. Other Considerations in Recursion
+
+    Ensuring that recursion terminates is crucial. This is done by structuring the function in such a way that each recursive call moves closer to the base case.
+
+    Recursive solutions are often more elegant and easier to write for problems that naturally fit a recursive structure (like tree traversals).
+
+    recursion can be combined with memoization to store already computed results and avoid redundant calculations. This optimizes time complexity.
