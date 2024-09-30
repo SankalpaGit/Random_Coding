@@ -1,0 +1,14 @@
+1. Time Complexity
+    Time complexity is a measure of the amount of time an algorithm takes to complete as a function of the size of the input (denoted as n). It allows us to estimate the algorithm's performance and how it scales as the input size increases.
+
+Common Time Complexities:
+    O(1) - Constant Time: The algorithm takes the same amount of time regardless of the input size.
+    O(log n) - Logarithmic Time: The time grows logarithmically as the input size increases (e.g., binary search).
+    O(n) - Linear Time: The time increases linearly with the input size.
+    O(n log n) - Linearithmic Time: Often seen in efficient sorting algorithms like merge sort and quicksort.
+    O(n²) - Quadratic Time: The time increases quadratically with the input size (e.g., bubble sort, insertion sort for large inputs).
+    O(2^n) - Exponential Time: The time doubles with each additional input (e.g., recursive solutions to the Fibonacci sequence without memoization).
+
+2. Space Complexity
+Space complexity measures the amount of memory an algorithm requires as a function of the input size. Like time complexity, it helps in understanding the scalability of an algorithm with respect to memory usage.
+
