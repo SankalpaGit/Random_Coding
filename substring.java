@@ -2,8 +2,6 @@ import java.util.*;
 
 public class substring {
     
-    // Function to find the length of the longest 
-      // substring without repeating characters
     static int longestUniqueSubstr(String s) {
         int n = s.length();
         int res = 0;
@@ -15,16 +13,11 @@ public class substring {
 
             for (int j = i; j < n; j++) {
 
-                // If current character is visited, 
-                  // Break the loop
                 if (visited[s.charAt(j)]) {
                     break;
                 } 
                   else {
                   
-                    // Else update the result if this 
-                    // window is larger, and mark current 
-                      // character as visited.
                     res = Math.max(res, j - i + 1);
                     visited[s.charAt(j)] = true;
                 }
