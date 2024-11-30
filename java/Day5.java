@@ -1,3 +1,4 @@
+package java;
 // Day5.java
 
 import java.util.Scanner;

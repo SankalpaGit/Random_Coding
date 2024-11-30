@@ -1,3 +1,4 @@
+package java;
 // Day1.java
 
 public class Day1 {
